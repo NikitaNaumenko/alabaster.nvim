@@ -514,8 +514,8 @@ else
         Operator = { fg = punct_fg },
 
         --- SYNTAX II: TS groups have their own definition, the below are defined to have somewhat working hl w/o treesitter
-        Identifier = { fg = ansi.black },
-        Function = { fg = def_fg },
+        Identifier = { fg = ansi.blue },
+        Function = { fg = ansi.blue },
         Statement = { fg = ansi.black },
         Conditional = { fg = ansi.black },
         Repeat = { fg = ansi.black },
@@ -532,7 +532,7 @@ else
         Structure = { fg = def_fg },
         Typedef = { fg = def_fg },
 
-        Special = { fg = ansi.yellow },
+        Special = { fg = ansi.magenta },
         -- TODO better color than diffchange, try reddish
         -- SpecialChar = { fg = diffchange }, --  special character in a constant
         -- Tag            { }, --    you can use CTRL-] on this
